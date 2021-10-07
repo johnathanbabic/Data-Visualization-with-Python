@@ -1,0 +1,12 @@
+Got the data source from --->> https://www.kaggle.com/lsind18/euro-exchange-daily-rates-19992020 
+
+Data Content:
+
+Reference rates are euro foreign exchange rates observed on major foreign exchange trading venues at a certain point in time = they are the price of one currency in terms of another currency. The rates are usually updated around 16:00 CET on every working day, except on TARGET closing days.
+
+Dataset contains date and Euro rate corresponding to Argentine peso, Australian dollar, Bulgarian lev, Brazilian real, Canadian dollar, Swiss franc, Chinese yuan renminbi, Cypriot pound, Czech koruna, Danish krone, Algerian dinar, Estonian kroon, UK pound sterling, Greek drachma, Hong Kong dollar, Croatian kuna, Hungarian forint, Indonesian rupiah, Israeli shekel, Indian rupee, Iceland krona, Japanese yen, Korean won, Lithuanian litas, Latvian lats, Moroccan dirham, Maltese lira, Mexican peso, Malaysian ringgit, Norwegian krone, New Zealand dollar, Philippine peso, Polish zloty, Romanian leu, Russian rouble, Swedish krona, Singapore dollar, Slovenian tolar, Slovak koruna, Thai baht, Turkish lira, New Taiwan dollar, US dollar, South African rand.
+
+Some currency in the list doesn't exist anymore; it was replaced by the Euro €: Cypriot pound (2007), Estonian kroon (2011), Greek drachma (2002), Lithuanian litas (2015), Latvian lats (2014), Maltese lira (2008), Slovenian tolar (2007), Slovak koruna (2009).
+Bulgarian lev since 2002 is pegged to the Euro: 1 € = 1.9558 leva.
+
+We will be using this data to see how the Canadian dollar compares to the euro. We will look at how at that rate changes over time. 
